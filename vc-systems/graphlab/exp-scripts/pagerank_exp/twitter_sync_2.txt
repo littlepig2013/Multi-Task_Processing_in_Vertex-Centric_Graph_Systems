@@ -1,0 +1,105 @@
+GRAPHLAB_SUBNET_ID/GRAPHLAB_SUBNET_MASK environment variables not defined.
+Using default values
+Subnet ID: 0.0.0.0
+Subnet Mask: 0.0.0.0
+Will find first IPv4 non-loopback address matching the subnet
+[1;32mINFO:     dc.cpp(distributed_control:127): Distributed Control Initialized from MPI
+[0m[1;32mINFO:     dc.cpp(distributed_control:127): Distributed Control Initialized from MPI
+[0m[1;32mINFO:     dc.cpp(init:576): TCP Communication layer constructed.
+[0m[1;32mINFO:     dc.cpp(init:578): Cluster of 2 instances created.
+[0m[1;32mINFO:     dc.cpp(init:576): TCP Communication layer constructed.
+[0m[1;32mINFO:     dc.cpp(init:585): Address: 10.20.1.40
+[0m[1;32mINFO:     dc.cpp(init:585): Address: 10.20.1.3
+[0mLoading graph in format: adj
+[1;32mINFO:     distributed_graph.hpp(set_ingress_method:3214): Automatically determine ingress method: grid
+[0m[1;32mINFO:     distributed_graph.hpp(load_from_hdfs:2252): Loading graph from file: hdfs://galaxy040:54312/twitter_pregelplus/twitter_pregelplus.txt
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 34086 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 98745 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 205161 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 354320 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 562457 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 751099 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 955422 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 1180578 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 1406082 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 1680639 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 1971901 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 2205243 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 2470460 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 2745079 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 2994352 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 3279683 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 3624284 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 3876007 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 4175528 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 4437380 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 4727510 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 4964702 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 5375683 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 5788982 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 6268376 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 6716905 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 7275777 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 7837212 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 8408405 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 9051953 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 9746602 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 10580418 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 11187038 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 11899121 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 12750276 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 13622057 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 14542212 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 15566101 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 16641330 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 17637794 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 18614312 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 19674160 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 20727309 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 21798459 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 22949083 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 24138820 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 25341645 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 26537433 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 27604879 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 28076210 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 28772063 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 29519360 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 30090147 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 30525494 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 31042919 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 31501921 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 32062098 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 33089415 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 34091773 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 34599598 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 35261815 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 36039766 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 36624576 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 37600990 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 38227669 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 38872704 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 39753374 Lines read
+[0mINFO:     distributed_graph.hpp(finalize:711): Distributed graph: enter finalize
+[0mINFO:     distributed_graph.hpp(finalize:711): Distributed graph: enter finalize
+[0m[1;32mINFO:     distributed_ingress_base.hpp(finalize:199): Finalizing Graph...
+[0mINFO:     distributed_ingress_base.hpp(finalize:259): Graph Finalize: constructing local graph
+[0m[1;35mWARNING:  memory_info.cpp(log_usage:96): Unable to print memory info for: Post Flush. No memory extensions api available.
+[0mINFO:     distributed_ingress_base.hpp(finalize:259): Graph Finalize: constructing local graph
+[0mterminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   PID 24475 RUNNING AT galaxy040
+=   EXIT CODE: 134
+=   CLEANING UP REMAINING PROCESSES
+=   YOU CAN IGNORE THE BELOW CLEANUP MESSAGES
+===================================================================================
+[proxy:0:1@galaxy003] HYD_pmcd_pmip_control_cmd_cb (pm/pmiserv/pmip_cb.c:887): assert (!closed) failed
+[proxy:0:1@galaxy003] HYDT_dmxu_poll_wait_for_event (tools/demux/demux_poll.c:76): callback returned error status
+[proxy:0:1@galaxy003] main (pm/pmiserv/pmip.c:202): demux engine error waiting for event
+[mpiexec@galaxy040] HYDT_bscu_wait_for_completion (tools/bootstrap/utils/bscu_wait.c:76): one of the processes terminated badly; aborting
+[mpiexec@galaxy040] HYDT_bsci_wait_for_completion (tools/bootstrap/src/bsci_wait.c:23): launcher returned error waiting for completion
+[mpiexec@galaxy040] HYD_pmci_wait_for_completion (pm/pmiserv/pmiserv_pmci.c:218): launcher returned error waiting for completion
+[mpiexec@galaxy040] main (ui/mpich/mpiexec.c:340): process manager error waiting for completion

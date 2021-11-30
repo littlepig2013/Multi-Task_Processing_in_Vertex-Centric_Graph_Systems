@@ -1,0 +1,214 @@
+Warning: $HADOOP_HOME is deprecated.
+
+21/08/14 04:06:06 INFO utils.ConfigurationUtils: No edge input format specified. Ensure your InputFormat does not require one.
+21/08/14 04:06:06 INFO utils.ConfigurationUtils: No edge output format specified. Ensure your OutputFormat does not require one.
+21/08/14 04:06:06 INFO utils.ConfigurationUtils: Setting custom argument [PersonalizedPageRankComputationNaive.PPRBatchedWalks] to [3200 3200 3200] in GiraphConfiguration
+21/08/14 04:06:06 INFO utils.ConfigurationUtils: Setting custom argument [PersonalizedPageRankComputationNaive.PPRBatchedWalksFlag] to [true] in GiraphConfiguration
+21/08/14 04:06:06 INFO utils.ConfigurationUtils: Setting custom argument [giraph.logLevel] to [debug] in GiraphConfiguration
+21/08/14 04:06:06 INFO utils.ConfigurationUtils: Setting custom argument [giraph.async.message.store.threads] to [7] in GiraphConfiguration
+21/08/14 04:06:07 INFO job.GiraphJob: run: Since checkpointing is disabled (default), do not allow any task retries (setting mapred.map.max.attempts = 1, old value = 1)
+21/08/14 04:06:08 INFO job.GiraphJob: Tracking URL: http://galaxy040:50030/jobdetails.jsp?jobid=job_202108140246_0007
+21/08/14 04:06:08 INFO job.GiraphJob: Waiting for resources... Job will start only when it gets all 28 mappers
+21/08/14 04:06:27 INFO job.HaltApplicationUtils$DefaultHaltInstructionsWriter: writeHaltInstructions: To halt after next superstep execute: 'bin/halt-application --zkServer galaxy040:22181 --zkNode /_hadoopBsp/job_202108140246_0007/_haltComputation'
+21/08/14 04:06:27 INFO mapred.JobClient: Running job: job_202108140246_0007
+21/08/14 04:06:28 INFO mapred.JobClient:  map 32% reduce 0%
+21/08/14 04:06:29 INFO mapred.JobClient:  map 53% reduce 0%
+21/08/14 04:06:30 INFO mapred.JobClient:  map 57% reduce 0%
+21/08/14 04:06:31 INFO mapred.JobClient:  map 71% reduce 0%
+21/08/14 04:06:32 INFO mapred.JobClient:  map 74% reduce 0%
+21/08/14 04:06:33 INFO mapred.JobClient:  map 85% reduce 0%
+21/08/14 04:06:34 INFO mapred.JobClient:  map 99% reduce 0%
+21/08/14 04:19:40 INFO mapred.JobClient:  map 100% reduce 0%
+21/08/14 04:19:40 INFO mapred.JobClient: Job complete: job_202108140246_0007
+21/08/14 04:19:40 INFO mapred.JobClient: Counters: 180
+21/08/14 04:19:40 INFO mapred.JobClient:   Map-Reduce Framework
+21/08/14 04:19:40 INFO mapred.JobClient:     Spilled Records=0
+21/08/14 04:19:40 INFO mapred.JobClient:     Virtual memory (bytes) snapshot=542694768640
+21/08/14 04:19:40 INFO mapred.JobClient:     Map input records=28
+21/08/14 04:19:40 INFO mapred.JobClient:     SPLIT_RAW_BYTES=1232
+21/08/14 04:19:40 INFO mapred.JobClient:     Map output records=0
+21/08/14 04:19:40 INFO mapred.JobClient:     Physical memory (bytes) snapshot=244633784320
+21/08/14 04:19:40 INFO mapred.JobClient:     CPU time spent (ms)=39981330
+21/08/14 04:19:40 INFO mapred.JobClient:     Total committed heap usage (bytes)=189735632896
+21/08/14 04:19:40 INFO mapred.JobClient:   Zookeeper halt node
+21/08/14 04:19:40 INFO mapred.JobClient:     /_hadoopBsp/job_202108140246_0007/_haltComputation=0
+21/08/14 04:19:40 INFO mapred.JobClient:   Zookeeper server:port
+21/08/14 04:19:40 INFO mapred.JobClient:     galaxy040:22181=0
+21/08/14 04:19:40 INFO mapred.JobClient:   Giraph Timers
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 131 PersonalizedPageRankComputationNaive (ms)=935
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 126 PersonalizedPageRankComputationNaive (ms)=283
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 120 PersonalizedPageRankComputationNaive (ms)=291
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 122 PersonalizedPageRankComputationNaive (ms)=265
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 124 PersonalizedPageRankComputationNaive (ms)=474
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 97 PersonalizedPageRankComputationNaive (ms)=354
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 16 PersonalizedPageRankComputationNaive (ms)=2159
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 99 PersonalizedPageRankComputationNaive (ms)=319
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 119 PersonalizedPageRankComputationNaive (ms)=260
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 12 PersonalizedPageRankComputationNaive (ms)=1964
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 14 PersonalizedPageRankComputationNaive (ms)=1193
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 135 PersonalizedPageRankComputationNaive (ms)=1069
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 137 PersonalizedPageRankComputationNaive (ms)=2260
+21/08/14 04:19:40 INFO mapred.JobClient:     Input superstep (ms)=3862
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 128 PersonalizedPageRankComputationNaive (ms)=408
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 133 PersonalizedPageRankComputationNaive (ms)=566
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 10 PersonalizedPageRankComputationNaive (ms)=2739
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 106 PersonalizedPageRankComputationNaive (ms)=315
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 79 PersonalizedPageRankComputationNaive (ms)=2505
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 108 PersonalizedPageRankComputationNaive (ms)=305
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 77 PersonalizedPageRankComputationNaive (ms)=4930
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 104 PersonalizedPageRankComputationNaive (ms)=324
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 71 PersonalizedPageRankComputationNaive (ms)=54842
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 73 PersonalizedPageRankComputationNaive (ms)=23695
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 25 PersonalizedPageRankComputationNaive (ms)=1913
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 102 PersonalizedPageRankComputationNaive (ms)=310
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 21 PersonalizedPageRankComputationNaive (ms)=709
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 23 PersonalizedPageRankComputationNaive (ms)=649
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 100 PersonalizedPageRankComputationNaive (ms)=329
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 75 PersonalizedPageRankComputationNaive (ms)=10613
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 41 PersonalizedPageRankComputationNaive (ms)=316
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 43 PersonalizedPageRankComputationNaive (ms)=302
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 95 PersonalizedPageRankComputationNaive (ms)=398
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 93 PersonalizedPageRankComputationNaive (ms)=845
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 91 PersonalizedPageRankComputationNaive (ms)=665
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 27 PersonalizedPageRankComputationNaive (ms)=1156
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 29 PersonalizedPageRankComputationNaive (ms)=363
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 50 PersonalizedPageRankComputationNaive (ms)=509
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 52 PersonalizedPageRankComputationNaive (ms)=303
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 53 PersonalizedPageRankComputationNaive (ms)=293
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 56 PersonalizedPageRankComputationNaive (ms)=295
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 54 PersonalizedPageRankComputationNaive (ms)=1048
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 55 PersonalizedPageRankComputationNaive (ms)=269
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 47 PersonalizedPageRankComputationNaive (ms)=278
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 48 PersonalizedPageRankComputationNaive (ms)=656
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 44 PersonalizedPageRankComputationNaive (ms)=545
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 45 PersonalizedPageRankComputationNaive (ms)=282
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 46 PersonalizedPageRankComputationNaive (ms)=531
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 51 PersonalizedPageRankComputationNaive (ms)=310
+21/08/14 04:19:40 INFO mapred.JobClient:     Initialize (ms)=14440
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 49 PersonalizedPageRankComputationNaive (ms)=1898
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 58 PersonalizedPageRankComputationNaive (ms)=269
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 59 PersonalizedPageRankComputationNaive (ms)=259
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 57 PersonalizedPageRankComputationNaive (ms)=270
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 81 PersonalizedPageRankComputationNaive (ms)=2695
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 82 PersonalizedPageRankComputationNaive (ms)=1653
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 7 PersonalizedPageRankComputationNaive (ms)=9673
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 8 PersonalizedPageRankComputationNaive (ms)=4990
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 9 PersonalizedPageRankComputationNaive (ms)=4186
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 80 PersonalizedPageRankComputationNaive (ms)=3804
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 19 PersonalizedPageRankComputationNaive (ms)=1512
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 18 PersonalizedPageRankComputationNaive (ms)=1719
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 89 PersonalizedPageRankComputationNaive (ms)=1264
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 6 PersonalizedPageRankComputationNaive (ms)=10496
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 83 PersonalizedPageRankComputationNaive (ms)=1999
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 84 PersonalizedPageRankComputationNaive (ms)=2718
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 5 PersonalizedPageRankComputationNaive (ms)=20548
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 1 PersonalizedPageRankComputationNaive (ms)=108854
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 3 PersonalizedPageRankComputationNaive (ms)=49218
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 4 PersonalizedPageRankComputationNaive (ms)=24575
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 0 PersonalizedPageRankComputationNaive (ms)=57709
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 85 PersonalizedPageRankComputationNaive (ms)=988
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 87 PersonalizedPageRankComputationNaive (ms)=1601
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 88 PersonalizedPageRankComputationNaive (ms)=1635
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 86 PersonalizedPageRankComputationNaive (ms)=1587
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 2 PersonalizedPageRankComputationNaive (ms)=50330
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 127 PersonalizedPageRankComputationNaive (ms)=282
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 132 PersonalizedPageRankComputationNaive (ms)=2624
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 121 PersonalizedPageRankComputationNaive (ms)=269
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 96 PersonalizedPageRankComputationNaive (ms)=364
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 98 PersonalizedPageRankComputationNaive (ms)=351
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 125 PersonalizedPageRankComputationNaive (ms)=290
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 130 PersonalizedPageRankComputationNaive (ms)=1872
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 17 PersonalizedPageRankComputationNaive (ms)=3740
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 123 PersonalizedPageRankComputationNaive (ms)=283
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 15 PersonalizedPageRankComputationNaive (ms)=1115
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 13 PersonalizedPageRankComputationNaive (ms)=1449
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 138 PersonalizedPageRankComputationNaive (ms)=435
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 136 PersonalizedPageRankComputationNaive (ms)=393
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 134 PersonalizedPageRankComputationNaive (ms)=267
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 129 PersonalizedPageRankComputationNaive (ms)=278
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 11 PersonalizedPageRankComputationNaive (ms)=2810
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 107 PersonalizedPageRankComputationNaive (ms)=300
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 105 PersonalizedPageRankComputationNaive (ms)=308
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 76 PersonalizedPageRankComputationNaive (ms)=8982
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 101 PersonalizedPageRankComputationNaive (ms)=352
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 72 PersonalizedPageRankComputationNaive (ms)=47345
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 26 PersonalizedPageRankComputationNaive (ms)=536
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 103 PersonalizedPageRankComputationNaive (ms)=290
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 78 PersonalizedPageRankComputationNaive (ms)=3905
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 109 PersonalizedPageRankComputationNaive (ms)=305
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 20 PersonalizedPageRankComputationNaive (ms)=748
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 24 PersonalizedPageRankComputationNaive (ms)=590
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 74 PersonalizedPageRankComputationNaive (ms)=20927
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 22 PersonalizedPageRankComputationNaive (ms)=878
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 42 PersonalizedPageRankComputationNaive (ms)=306
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 94 PersonalizedPageRankComputationNaive (ms)=617
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 90 PersonalizedPageRankComputationNaive (ms)=994
+21/08/14 04:19:40 INFO mapred.JobClient:     Total (ms)=791580
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 28 PersonalizedPageRankComputationNaive (ms)=364
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 40 PersonalizedPageRankComputationNaive (ms)=299
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 92 PersonalizedPageRankComputationNaive (ms)=1755
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 65 PersonalizedPageRankComputationNaive (ms)=543
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 66 PersonalizedPageRankComputationNaive (ms)=404
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 62 PersonalizedPageRankComputationNaive (ms)=289
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 64 PersonalizedPageRankComputationNaive (ms)=298
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 67 PersonalizedPageRankComputationNaive (ms)=220
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 61 PersonalizedPageRankComputationNaive (ms)=495
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 68 PersonalizedPageRankComputationNaive (ms)=225
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 60 PersonalizedPageRankComputationNaive (ms)=300
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 70 PersonalizedPageRankComputationNaive (ms)=106367
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 63 PersonalizedPageRankComputationNaive (ms)=496
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 30 PersonalizedPageRankComputationNaive (ms)=360
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 31 PersonalizedPageRankComputationNaive (ms)=364
+21/08/14 04:19:40 INFO mapred.JobClient:     Shutdown (ms)=9573
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 38 PersonalizedPageRankComputationNaive (ms)=315
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 39 PersonalizedPageRankComputationNaive (ms)=335
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 69 PersonalizedPageRankComputationNaive (ms)=61977
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 117 PersonalizedPageRankComputationNaive (ms)=279
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 118 PersonalizedPageRankComputationNaive (ms)=303
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 116 PersonalizedPageRankComputationNaive (ms)=856
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 113 PersonalizedPageRankComputationNaive (ms)=626
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 114 PersonalizedPageRankComputationNaive (ms)=295
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 115 PersonalizedPageRankComputationNaive (ms)=506
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 37 PersonalizedPageRankComputationNaive (ms)=336
+21/08/14 04:19:40 INFO mapred.JobClient:     Setup (ms)=43
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 35 PersonalizedPageRankComputationNaive (ms)=321
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 36 PersonalizedPageRankComputationNaive (ms)=336
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 33 PersonalizedPageRankComputationNaive (ms)=311
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 32 PersonalizedPageRankComputationNaive (ms)=317
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 110 PersonalizedPageRankComputationNaive (ms)=297
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 112 PersonalizedPageRankComputationNaive (ms)=281
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 34 PersonalizedPageRankComputationNaive (ms)=319
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep 111 PersonalizedPageRankComputationNaive (ms)=287
+21/08/14 04:19:40 INFO mapred.JobClient:   VERTEX input
+21/08/14 04:19:40 INFO mapred.JobClient:     100.00% done time (ms)=3481
+21/08/14 04:19:40 INFO mapred.JobClient:   File Input Format Counters 
+21/08/14 04:19:40 INFO mapred.JobClient:     Bytes Read=0
+21/08/14 04:19:40 INFO mapred.JobClient:   Zookeeper base path
+21/08/14 04:19:40 INFO mapred.JobClient:     /_hadoopBsp/job_202108140246_0007=0
+21/08/14 04:19:40 INFO mapred.JobClient:   Giraph Stats
+21/08/14 04:19:40 INFO mapred.JobClient:     Aggregate bytes stored to local disks (out-of-core)=0
+21/08/14 04:19:40 INFO mapred.JobClient:     Aggregate finished vertices=613586
+21/08/14 04:19:40 INFO mapred.JobClient:     Aggregate edges=3980318
+21/08/14 04:19:40 INFO mapred.JobClient:     Current master task partition=0
+21/08/14 04:19:40 INFO mapred.JobClient:     Superstep=139
+21/08/14 04:19:40 INFO mapred.JobClient:     Aggregate sent message bytes=471340036143
+21/08/14 04:19:40 INFO mapred.JobClient:     Aggregate vertices=613586
+21/08/14 04:19:40 INFO mapred.JobClient:     Aggregate bytes loaded from local disks (out-of-core)=0
+21/08/14 04:19:40 INFO mapred.JobClient:     Sent messages=0
+21/08/14 04:19:40 INFO mapred.JobClient:     Sent message bytes=0
+21/08/14 04:19:40 INFO mapred.JobClient:     Current workers=27
+21/08/14 04:19:40 INFO mapred.JobClient:     Last checkpointed superstep=0
+21/08/14 04:19:40 INFO mapred.JobClient:     Aggregate sent messages=18850016989
+21/08/14 04:19:40 INFO mapred.JobClient:     Lowest percentage of graph in memory so far (out-of-core)=100
+21/08/14 04:19:40 INFO mapred.JobClient:   FileSystemCounters
+21/08/14 04:19:40 INFO mapred.JobClient:     HDFS_BYTES_READ=49956628
+21/08/14 04:19:40 INFO mapred.JobClient:     FILE_BYTES_WRITTEN=1699842
+21/08/14 04:19:40 INFO mapred.JobClient:     HDFS_BYTES_WRITTEN=52011767
+21/08/14 04:19:40 INFO mapred.JobClient:   Job Counters 
+21/08/14 04:19:40 INFO mapred.JobClient:     Launched map tasks=28
+21/08/14 04:19:40 INFO mapred.JobClient:     SLOTS_MILLIS_REDUCES=0
+21/08/14 04:19:40 INFO mapred.JobClient:     Total time spent by all reduces waiting after reserving slots (ms)=0
+21/08/14 04:19:40 INFO mapred.JobClient:     SLOTS_MILLIS_MAPS=22378505
+21/08/14 04:19:40 INFO mapred.JobClient:     Total time spent by all maps waiting after reserving slots (ms)=0
+21/08/14 04:19:40 INFO mapred.JobClient:   File Output Format Counters 
+21/08/14 04:19:40 INFO mapred.JobClient:     Bytes Written=0

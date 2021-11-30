@@ -1,0 +1,6 @@
+Max-Recv-Bytes	Max-Recv-Pack	Max-Trans-Bytes	Max-Trans-Pack
+15359484.5	14188.5	46813825.0	33332.5
+Avg-Recv-Bytes	Avg-Recv-Pack	Avg-Trans-Bytes	Avg-Trans-Pack
+25421336867.6	43617636.5209	26801789987.7	44240448.9936
+Overuse-time
+0.0

@@ -1,0 +1,150 @@
+GRAPHLAB_SUBNET_ID/GRAPHLAB_SUBNET_MASK environment variables not defined.
+Using default values
+Subnet ID: 0.0.0.0
+Subnet Mask: 0.0.0.0
+Will find first IPv4 non-loopback address matching the subnet
+[1;32mINFO:     dc.cpp(distributed_control:127): Distributed Control Initialized from MPI
+[0m[1;32mINFO:     dc.cpp(init:576): TCP Communication layer constructed.
+[0m[1;32mINFO:     dc.cpp(init:578): Cluster of 1 instances created.
+[0m[1;32mINFO:     dc.cpp(init:585): Address: 10.20.1.40
+[0mLoading graph in format: adj
+[1;32mINFO:     distributed_graph.hpp(set_ingress_method:3214): Automatically determine ingress method: grid
+[0m[1;32mINFO:     distributed_graph.hpp(load_from_hdfs:2252): Loading graph from file: hdfs://galaxy040:54312/twitter_pregelplus/twitter_pregelplus.txt
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 38752 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 109090 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 222773 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 392859 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 609281 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 822818 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 1058619 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 1291892 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 1567657 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 1841177 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 2103395 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 2381495 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 2647670 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 2889348 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 3198168 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 3495364 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 3547898 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 3624284 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 3660054 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 3699479 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 3728783 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 3768624 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 3847385 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 3915046 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 3969480 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 4065489 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 4156886 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 4220053 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 4277236 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 4349424 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 4418286 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 4512946 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 4585017 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 4644633 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 4747132 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 4811299 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 4902953 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 4950542 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 5007758 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 5060091 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 5165371 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 5272108 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 5368767 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 5490360 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 5587435 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 5702328 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 5810192 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 5916327 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 6044145 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 6187196 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 6299450 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 6325023 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 6486566 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 6594526 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 6743346 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 6925414 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 7066940 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 7240368 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 7345118 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 7561812 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 7708964 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 7856543 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 7948979 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 8157601 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 8317061 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 8501849 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 8692273 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 8923625 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 9043218 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 9233334 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 9471621 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 9632445 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 9817809 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 9966248 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 10144786 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 10325111 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 10524507 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 10748721 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 10982770 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 11172300 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 11332500 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 11660809 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 11752295 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 11954039 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 12029640 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 12255583 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 12495312 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 12671216 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 13042309 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 13314147 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 13504932 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 13681191 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 13860656 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 14022210 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 14127454 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 14379721 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 14590872 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 14632679 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 14792777 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 14965081 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 15094284 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 15297010 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 15528951 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 15596479 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 15884464 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 16090220 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 16329605 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 16548488 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 16760097 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 17013956 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 17277454 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 17526974 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 17674931 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 17862832 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 18011816 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 18139026 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 18305040 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 18487968 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 18725193 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 18980603 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 19173517 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 19391508 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 19667582 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 19895340 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 19997443 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 20179706 Lines read
+[0mINFO:     distributed_graph.hpp(load_from_stream:3250): 20409395 Lines read
+[0m
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   PID 23971 RUNNING AT galaxy040
+=   EXIT CODE: 9
+=   CLEANING UP REMAINING PROCESSES
+=   YOU CAN IGNORE THE BELOW CLEANUP MESSAGES
+===================================================================================
+YOUR APPLICATION TERMINATED WITH THE EXIT STRING: Killed (signal 9)
+This typically refers to a problem with your application.
+Please see the FAQ page for debugging suggestions
