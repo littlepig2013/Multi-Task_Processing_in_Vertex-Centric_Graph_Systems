@@ -1,6 +1,6 @@
-The system codeswe use in our experiments are credited to [GraphD](http://www.cse.cuhk.edu.hk/systems/graphd/), [Pregel+](http://www.cse.cuhk.edu.hk/pregelplus/), [Giraph](giraph.apache.org), [Graphlab](https://github.com/jegonzal/PowerGraph).
+The system codes we use in our experiments are credited to [GraphD](http://www.cse.cuhk.edu.hk/systems/graphd/), [Pregel+](http://www.cse.cuhk.edu.hk/pregelplus/), [Giraph](giraph.apache.org), [Graphlab](https://github.com/jegonzal/PowerGraph).
 
-You can refer to the above links to know the detailed instructions on setting up environment and running a program.
+You can refer to the above links for detailed instructions on setting up environment and running a program.
 
 Codes we added or modified:
 
